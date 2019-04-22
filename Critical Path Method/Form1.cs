@@ -99,6 +99,7 @@ namespace WindowsFormsApp1
                 {
                     MessageBox.Show("DATA ERROR");
                     noError = false;
+                    ActionsList.Clear();
                     break;
                 }
             }
